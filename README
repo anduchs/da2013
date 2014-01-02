@@ -1,0 +1,19 @@
+DeathAdder 2013 Edition Sensitivity Setter
+==========================================
+
+Just a hacky little program to set sensitivity on a deathadder 2013 edition.
+
+
+Compile
+-------
+
+gcc -std=gnu99 -g da2013.c $(pkg-config --cflags --libs libusb-1.0) -o da2013
+
+
+Run
+---
+
+sudo ./da2013 <1..255>
+
+1 is very low DPI, 255 is very high dpi...
+Actual values; unknown...
